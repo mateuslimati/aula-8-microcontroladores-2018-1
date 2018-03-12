@@ -1,0 +1,252 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F870 ]
+[d frameptr 6 ]
+"492 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"14 C:\Users\Mateus\MPLABXProjects\aula8.X\calc.c
+[v _sum sum `(v  1 e 1 0 ]
+"12 C:\Users\Mateus\MPLABXProjects\aula8.X\lcd.c
+[v _enable enable `(v  1 e 1 0 ]
+"23
+[v _send_cmd send_cmd `(v  1 e 1 0 ]
+"32
+[v _send_msg send_msg `(v  1 e 1 0 ]
+"43
+[v _init_LCD init_LCD `(v  1 e 1 0 ]
+"56
+[v _write_LCD write_LCD `(v  1 e 1 0 ]
+"64
+[v _set_cursor set_cursor `(v  1 e 1 0 ]
+"12 C:\Users\Mateus\MPLABXProjects\aula8.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"16 C:\Users\Mateus\MPLABXProjects\aula8.X\teclado_matricial_4x3.c
+[v _PORTC_read PORTC_read `(ui  1 e 2 0 ]
+"39
+[v _PORTC_write PORTC_write `(v  1 e 1 0 ]
+"73
+[v _teclado_matricial_read teclado_matricial_read `(uc  1 e 1 0 ]
+[s S44 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"179 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f870.h
+[u S51 . 1 `S44 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES51  1 e 1 @5 ]
+"214
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S68 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"293
+[u S77 . 1 `S68 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES77  1 e 1 @7 ]
+[s S90 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1060
+[u S97 . 1 `S90 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES97  1 e 1 @133 ]
+"1095
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1157
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S107 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1174
+[u S116 . 1 `S107 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES116  1 e 1 @135 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"37 C:\Users\Mateus\MPLABXProjects\aula8.X\teclado_matricial_4x3.h
+[v _matriz matriz `[4][3]uc  1 e 12 0 ]
+"12 C:\Users\Mateus\MPLABXProjects\aula8.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"21
+} 0
+"14 C:\Users\Mateus\MPLABXProjects\aula8.X\calc.c
+[v _sum sum `(v  1 e 1 0 ]
+{
+"20
+[v sum@c c `uc  1 a 1 29 ]
+"17
+[v sum@result result `[8]uc  1 a 8 15 ]
+"18
+[v sum@op op `i  1 a 2 27 ]
+"16
+[v sum@n2 n2 `i  1 a 2 25 ]
+[v sum@n1 n1 `i  1 a 2 23 ]
+"43
+} 0
+"56 C:\Users\Mateus\MPLABXProjects\aula8.X\lcd.c
+[v _write_LCD write_LCD `(v  1 e 1 0 ]
+{
+"58
+[v write_LCD@i i `i  1 a 2 10 ]
+"56
+[v write_LCD@c c `*.26uc  1 p 2 5 ]
+"62
+} 0
+"32
+[v _send_msg send_msg `(v  1 e 1 0 ]
+{
+[v send_msg@msg msg `uc  1 a 1 wreg ]
+[v send_msg@msg msg `uc  1 a 1 wreg ]
+"34
+[v send_msg@msg msg `uc  1 a 1 4 ]
+"41
+} 0
+"73 C:\Users\Mateus\MPLABXProjects\aula8.X\teclado_matricial_4x3.c
+[v _teclado_matricial_read teclado_matricial_read `(uc  1 e 1 0 ]
+{
+"76
+[v teclado_matricial_read@i i `i  1 a 2 10 ]
+[v teclado_matricial_read@j j `i  1 a 2 8 ]
+"91
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
+"39 C:\Users\Mateus\MPLABXProjects\aula8.X\teclado_matricial_4x3.c
+[v _PORTC_write PORTC_write `(v  1 e 1 0 ]
+{
+[v PORTC_write@i i `i  1 p 2 0 ]
+[v PORTC_write@v v `ui  1 p 2 2 ]
+"71
+} 0
+"16
+[v _PORTC_read PORTC_read `(ui  1 e 2 0 ]
+{
+[v PORTC_read@i i `i  1 p 2 0 ]
+"37
+} 0
+"492 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"528
+[v sprintf@val val `ui  1 a 2 9 ]
+"499
+[v sprintf@c c `c  1 a 1 12 ]
+"506
+[v sprintf@prec prec `c  1 a 1 8 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 7 ]
+"494
+[v sprintf@ap ap `[1]*.4v  1 a 1 6 ]
+"492
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.24DCuc  1 p 1 0 ]
+"533
+[v sprintf@sp sp `*.4uc  1 a 1 11 ]
+"1541
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 13 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 8 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 10 ]
+"26
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"31
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"64 C:\Users\Mateus\MPLABXProjects\aula8.X\lcd.c
+[v _set_cursor set_cursor `(v  1 e 1 0 ]
+{
+"66
+[v set_cursor@cursor cursor `uc  1 a 1 10 ]
+"64
+[v set_cursor@line line `i  1 p 2 5 ]
+[v set_cursor@pos pos `i  1 p 2 7 ]
+"73
+} 0
+"43
+[v _init_LCD init_LCD `(v  1 e 1 0 ]
+{
+"54
+} 0
+"23
+[v _send_cmd send_cmd `(v  1 e 1 0 ]
+{
+[v send_cmd@cmd cmd `uc  1 a 1 wreg ]
+[v send_cmd@cmd cmd `uc  1 a 1 wreg ]
+"25
+[v send_cmd@cmd cmd `uc  1 a 1 4 ]
+"30
+} 0
+"12
+[v _enable enable `(v  1 e 1 0 ]
+{
+"21
+} 0
